@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(63, 63, 145);
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.list{
+    padding: 0px 5px;
+    display: flex;
+}
+
+.list li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list li a:hover{
+    color: rgb(202, 255, 202);
+}
+
+.button{
+    background-color: rgb(63, 63, 145);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+button{
+    background-color: rgb(63, 63, 145);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+}
+
+.main-flex{
+    display: flex;
+}
+
+.main-flex-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar-flex{
+    background-color: rgb(11, 35, 81);
+    flex-basis: 20%;
+    overflow-y: scroll;
+    height: 657px;
+    overflow-x: unset;
+}
+
+.sidebar-flex-1{
+    background-color: rgb(11, 35, 81);
+    flex-basis: 5%;
+    overflow-y: scroll;
+    height: 657px;
+    transition: 0.5s ease-in;
+    overflow-x: unset;
+}
+
+
+.dash-flex{
+    flex-basis: 80%;
+    overflow-y: scroll;
+    height: 657px;
+    transition: 0.5s all;
+    overflow-x:unset
+}
+
+.dash-flex-1{
+    flex-basis: 95%;
+    overflow-y: scroll;
+    height: 657px;
+    overflow-x: unset;
+}
+.sidebar-flex::-webkit-scrollbar{
+    width: 5px;
+}
+
+.sidebar-flex::-webkit-scrollbar-track{
+    background-color: rgb(78, 97, 132);
+}
+
+.sidebar-flex-1::-webkit-scrollbar{
+    width: 5px;
+}
+
+.sidebar-flex-1::-webkit-scrollbar-track{
+    background-color: rgb(78, 97, 132);
+}
+
+.dash-flex::-webkit-scrollbar{
+    width: 5px;
+}
+
+.dash-flex::-webkit-scrollbar-track{
+    background-color: rgb(78, 97, 132);
+}
+
+.dash-flex-1::-webkit-scrollbar{
+    width: 5px;
+}
+
+.dash-flex-1::-webkit-scrollbar-track{
+    background-color: rgb(78, 97, 132);
+}
+
+
+.sidebar-logo{
+    color: white;
+    background-color: rgb(110, 107, 107);
+    padding: 17px;
+    text-align: center;
+}
+
+.sidebar-logo h3{
+    font-size: 32px;
+}
+
+.sidebar-menu{
+}
+
+
+.sidebar-menu-1 li{
+    list-style: none;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.sidebar-menu-1 li a{
+    color: white;
+    text-decoration: none;
+    font-size:17px;
+    letter-spacing: 2px;
+}
+
+.sidebar-menu-1 ul{
+    padding-left: 0px !important;
+}
+
+
+.sidebar-menu li{
+    padding: 22px;
+    list-style: none;
+    border-bottom: 1px  solid white;
+}
+
+.sidebar-menu li a{
+    color: white;
+    text-decoration: none;
+    font-size:17px;
+    letter-spacing: 2px;
+}
+
+.para{
+    text-align: justify;
+}
+
+.beard-come{
+    background-color: rgb(10, 90, 90);
+    padding: 10px ;
+}
+
+.beard-come ul{
+    display: flex;
+    padding-left: 0px !important;
+}
+
+.beard-come ul li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+span{
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.position{
+
+    font-size: 20px;
+}
+
+.chart1{
+    padding: 10px;
+    background-color: rgb(181, 213, 242);
+    border-radius: 15px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.manage-box{
+    background-color: rgb(181, 213, 242);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(132, 170, 205);;
+    outline: none;
+}
